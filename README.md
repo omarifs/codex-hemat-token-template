@@ -12,6 +12,9 @@ Template ini membantu Anda memakai Codex/agent coding lain dengan biaya token le
 - `templates/task_prompt.md` : template permintaan kerja harian.
 - `templates/review_prompt.md` : template review bug/risk.
 - `templates/commit_prompt.md` : template ringkas sebelum commit.
+- `templates/app_build_prompt.md` : template build aplikasi dari nol (bertahap).
+- `templates/app_feature_batch_prompt.md` : template batch fitur kecil per request.
+- `templates/quick_start_snippet.md` : snippet super-singkat untuk awal sesi.
 - `TOKEN_RULES.md` : aturan praktis hemat token.
 - `examples/request_examples.md` : contoh pemakaian.
 
@@ -20,6 +23,8 @@ Template ini membantu Anda memakai Codex/agent coding lain dengan biaya token le
 2. Untuk tiap task, copy `templates/task_prompt.md` lalu isi bagian `[ISI]`.
 3. Jika butuh code review, pakai `templates/review_prompt.md`.
 4. Batasi scope file dan acceptance criteria agar agent tidak melebar.
+5. Untuk bikin aplikasi dari nol, mulai dari `templates/app_build_prompt.md` (fase 1-4).
+6. Lanjut implementasi fitur pakai `templates/app_feature_batch_prompt.md` (1 batch = 1 fitur).
 
 ## Prinsip Kunci
 - Beri konteks minimal yang cukup, bukan semua konteks.
