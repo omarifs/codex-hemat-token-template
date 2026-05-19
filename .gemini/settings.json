@@ -1,0 +1,14 @@
+{
+  "model": {
+    "name": "gemini-2.5-flash",
+    "maxSessionTurns": 12,
+    "summarizeToolOutput": {
+      "run_shell_command": {
+        "tokenBudget": 80
+      }
+    }
+  },
+  "context": {
+    "includeDirectoryTree": false
+  }
+}
