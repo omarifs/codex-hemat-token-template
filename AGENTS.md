@@ -8,6 +8,9 @@ Optimize for low token use, small safe changes, and practical verification.
 - **[Server Deployer](presets/SERVER_DEPLOYER.md):** High-performance server deployment and optimization workflow.
 - **[Malware Scanner](presets/MALWARE_SCANNER.md):** Automated threat detection and security hardening.
 - **[CPanel User Scanner](presets/CPANEL_USER_SCANNER.md):** Non-root malware detection for standard cPanel accounts (Zero-Install).
+- **[Script Builder](presets/SCRIPT_BUILDER.md):** Rapid development of standalone utility scripts (Python, Go, Node, PHP).
+- **[Python Preset](presets/python/GEMINI.md):** Token-efficient instructions for Python ecosystem.
+- **[Golang Preset](presets/golang/GEMINI.md):** Token-efficient instructions for Go ecosystem.
 
 ## Core Rules
 - Focus only on the requested task.
