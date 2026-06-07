@@ -6,6 +6,7 @@ Optimize for low token use, small safe changes, and practical verification.
 
 ## Specialized Agents
 - **[Server Deployer](presets/SERVER_DEPLOYER.md):** High-performance server deployment and optimization workflow.
+- **[Malware Scanner](presets/MALWARE_SCANNER.md):** Automated threat detection and security hardening.
 
 ## Core Rules
 - Focus only on the requested task.
