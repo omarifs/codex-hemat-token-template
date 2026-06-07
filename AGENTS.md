@@ -7,6 +7,7 @@ Optimize for low token use, small safe changes, and practical verification.
 ## Specialized Agents
 - **[Server Deployer](presets/SERVER_DEPLOYER.md):** High-performance server deployment and optimization workflow.
 - **[Malware Scanner](presets/MALWARE_SCANNER.md):** Automated threat detection and security hardening.
+- **[CPanel User Scanner](presets/CPANEL_USER_SCANNER.md):** Non-root malware detection for standard cPanel accounts (Zero-Install).
 
 ## Core Rules
 - Focus only on the requested task.
