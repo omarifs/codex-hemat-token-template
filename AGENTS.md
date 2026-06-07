@@ -4,6 +4,9 @@
 This repository stores reusable prompt templates and operating rules for coding agents.
 Optimize for low token use, small safe changes, and practical verification.
 
+## Specialized Agents
+- **[Server Deployer](presets/SERVER_DEPLOYER.md):** High-performance server deployment and optimization workflow.
+
 ## Core Rules
 - Focus only on the requested task.
 - Read only files that are likely relevant.
