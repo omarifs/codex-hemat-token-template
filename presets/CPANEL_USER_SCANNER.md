@@ -41,13 +41,14 @@ find $SEARCH_PATH -mtime -7 -type f >> $REPORT
 echo "Scan complete. See $REPORT"
 ```
 
-## 4. Cleaning Protocol
-- **Safety First:** NEVER delete a file without checking if it's a core CMS file (WordPress/Laravel).
-- **Manual Review:** Use `head -n 20 <file>` to inspect the code before cleaning.
-- **De-activation:** Instead of deleting, rename to `.file.bak` or comment out the malicious line using `sed`.
+## 4. Reporting Protocol (Tech Support Role)
+As technical support, the goal is to provide **evidence**, not to modify client files without consent.
+- **Generate Evidence:** Always provide the exact file path and the line number of the suspicious content.
+- **Snippet Collection:** Use `grep -C 2` to show the context (2 lines before/after) of the hit for the client's review.
+- **Categorization:** Separate the report into "Likely Malware" (judi keywords) and "Suspicious Code" (obfuscated PHP).
 
 ## 5. Token-Efficient Workflow
-1. **Identify:** Run a broad `grep` for keywords.
-2. **Isolate:** Get the exact file paths.
-3. **Inspect:** Use `sed -n 'X,Yp'` to read only the lines surrounding the match.
-4. **Clean:** Apply a surgical `sed` replacement if the injection is in a valid file.
+1. **Identify:** Run `grep` to find suspicious patterns.
+2. **Detail:** For each hit, show the client a 1-line snippet.
+3. **Summarize:** Provide a total count of suspicious files.
+4. **Handoff:** Present the `malware_report.txt` path to the client.
