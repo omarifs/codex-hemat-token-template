@@ -41,7 +41,16 @@ Template ini membantu Anda memakai Codex/agent coding lain dengan biaya token le
 - `presets/laravel/AGENTS.md` dan `presets/laravel/GEMINI.md` untuk Laravel/PHP.
 - `presets/node/AGENTS.md` dan `presets/node/GEMINI.md` untuk Node/TypeScript.
 - `presets/docs/AGENTS.md` dan `presets/docs/GEMINI.md` untuk dokumentasi atau repo prompt.
+- `presets/SERVER_DEPLOYER.md` untuk arsitektur server high-concurrency (SPMB Case).
+- `presets/MALWARE_SCANNER.md` dan `presets/CPANEL_USER_SCANNER.md` untuk deteksi malware.
 - Salin preset yang sesuai ke repo target sebagai `AGENTS.md` atau `GEMINI.md`.
+
+## Case Study: SPMB High-Concurrency (10k Users)
+Proyek ini mencakup optimasi server terdistribusi:
+1. **Web Server:** cPanel + Nginx Proxy + PHP-FPM Ondemand.
+2. **Database Server:** MariaDB Dedicated (Private IP).
+3. **Optimasi:** Kernel sysctl tuning, Nginx Micro-caching, dan CSF Firewall hardening.
+Panduan lengkap ada di file `final-optimization-scripts.md` (lokal).
 
 ## Satu Perintah
 - Dari repo target, jalankan:
